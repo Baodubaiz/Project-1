@@ -1,0 +1,93 @@
+html{
+    font-family: Arial,Helvetica,sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    
+    text-decoration: none;
+    display: inline ;
+    color: black;
+}
+li{
+    list-style: none;
+}
+.Line{
+    padding-top: 8px;
+    border-left: 1px solid black;
+}
+/* Nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+/* Nav logo */
+.Nav__Logo{
+    display: flex;
+    margin: 16px;
+    padding: 16px;
+    align-self: center;
+}
+    /* Logo Icon */
+    .Nav__Logo--Icon{
+        padding: 8px;
+        font-size: 25px;
+    }
+
+    /* logo description */
+    .Nav__Logo--Description{
+        padding: 8px;
+        font-size: 11px;
+        align-self: center;
+        opacity: 0.6;
+        letter-spacing: 1px;
+        font-weight: 100;
+    }
+/* Nav menu */
+.Nav__Menu{
+    display: flex;
+    margin: 16px;
+    padding: 16px;
+    justify-content: space-evenly;
+}
+    /* menu login */
+    .Nav__Menu--Login{
+        background-color: white;
+        border: none;
+        display: flex;
+    }
+    .Nav__Menu--Login :hover{
+        color: #AA3A3A;
+    }
+    .Menu__Login--Icon{
+        font-size: 17px;
+        padding: 10px;
+        margin-left: 6px;
+        border-radius: 22px;
+        text-align: center;
+        align-self: center;
+    }
+    
+
+    /* menu description */
+    .Nav__Menu--Option{
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+    .Menu__Option--Item{
+        margin: 0 16px;
+        padding: 10px;
+        align-self: center;
+        opacity: 0.7;
+        letter-spacing: 1px;
+        font-weight: 100;
+    }
+    .Menu__Option--Item :hover{
+        color: #AA3A3A;
+    }
+
